@@ -1,0 +1,21 @@
+#pragma once
+
+#include <cdll_int.h>
+#include <cdll_client_int.h>
+#include <mathlib\mathlib.h>
+#include <iclientmode.h>
+#include <iefx.h>
+#include <engine\IEngineSound.h>
+#include <ienginevgui.h>
+#include <engine\ivdebugoverlay.h>
+#include <vgui\ISurface.h>
+#include <iprediction.h>
+#include <igameevents.h>
+#include <icvar.h>
+#include <convar.h>
+#include <materialsystem\imaterialsystem.h>
+#include <vgui\IVGui.h>
+#include <input.h>
+#include <con_nprint.h>
+#include <game_controls\commandmenu.h>
+#include <in_buttons.h>

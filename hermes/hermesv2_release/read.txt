@@ -1,0 +1,24 @@
+Hermes (Herpes) for Gayry's Mod
+
+I no longer care about this and care about garry's mod, so im better off giving it out to you guyz
+so you can use it.
+
+gmcl_hermes does shit like scriptenforcer bypassens, nospread, and other useless bullshit
+
+files:
+	__autoload__ - put this in garrysmod/garrysmod (no it does not go in the lua folder faggots)
+	autorun & menu_plugins - put this shit in garrysmod/garrysmod/lua
+	gmcl_hermes - this is da main module put it in garrysmod/garrysmod/includes/modules
+	
+credits:
+	noPE
+	funny ph)ne
+	C0BRA
+	s0beit
+	victormeriqui
+	sykranos
+	and some other people I cannot think of right now...
+
+in case I forget, if the module is crashing you change these interfaces:
+VMaterialSystem079 to 080
+VFileSystem017 to 019

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<injector>
+<mod>hotbutton.dll</mod>
+<exe>hl2.exe</exe>
+<win></win>
+<cls></cls>
+<motd>
+<m>www.uc-forum.com</m>
+<m>www.thisgamesux.net</m>
+<m>www.gamedeception.net</m>
+</motd>
+</injector>

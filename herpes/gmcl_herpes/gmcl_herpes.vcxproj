@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9DD220F8-FB3B-451D-B84C-1D2B8DF11EF7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>gmcl_herpes</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GMCL_HERPES_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GMCL_HERPES_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\Hacks\Source\_includes\source\game\client;C:\Program Files\Hacks\Source\gmcl_herpes\gmcl_herpes\gmod;C:\Program Files\Hacks\Source\gmcl_herpes\gmcl_herpes\source\public\tier1;C:\Program Files\Hacks\Source\gmcl_herpes\gmcl_herpes\source\public\tier0;C:\Program Files\Hacks\Source\gmcl_herpes\gmcl_herpes\source\public\materialsystem;C:\Program Files\Hacks\Source\gmcl_herpes\gmcl_herpes\source\public;C:\Program Files\Hacks\Source\gmcl_herpes\gmcl_herpes\source\game\shared;C:\Program Files\Hacks\Source\_includes\source\game;C:\Program Files\Hacks\Source\_includes\source;C:\Program Files\Hacks\Source\_includes\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>vtf.lib;tier0.lib;tier1.lib;tier2.lib;tier3.lib;matsys_controls.lib;bitmap.lib;choreoobjects.lib;dmxloader.lib;mathlib.lib;nvtristrip.lib;particles.lib;raytrace.lib;steam_api.lib;vgui_controls.lib;vmpi.lib;vstdlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>C:\Program Files\Hacks\Source\gmcl_herpes\gmcl_herpes\source\lib\public;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CAutoWall.cpp" />
+    <ClCompile Include="CExtra.cpp" />
+    <ClCompile Include="CFilter.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="CPlayer.cpp" />
+    <ClCompile Include="CReplicator.cpp" />
+    <ClCompile Include="CScriptEnforcer.cpp" />
+    <ClCompile Include="Detours.cpp" />
+    <ClCompile Include="Interfaces.cpp" />
+    <ClCompile Include="CNospread.cpp" />
+    <ClCompile Include="SDK.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAutoWall.h" />
+    <ClInclude Include="CFilter.h" />
+    <ClInclude Include="CExtra.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="CPlayer.h" />
+    <ClInclude Include="CReplicator.h" />
+    <ClInclude Include="CScriptEnforcer.h" />
+    <ClInclude Include="Detours.h" />
+    <ClInclude Include="Interfaces.h" />
+    <ClInclude Include="CNospread.h" />
+    <ClInclude Include="SDK.h" />
+    <ClInclude Include="vmthook.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

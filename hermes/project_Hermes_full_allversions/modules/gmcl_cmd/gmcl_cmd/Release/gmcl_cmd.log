@@ -1,0 +1,28 @@
+﻿Build started 6/16/2011 7:13:10 PM.
+     1>Project "C:\Users\Matthew\Documents\Hermes\gmcl_cmd\gmcl_cmd\gmcl_cmd.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\gmcl_cmd.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Matthew\Documents\__GModStuff\PROJECT\src\game\client /IC:\Users\Matthew\Documents\__GModStuff\PROJECT\src\game\shared /IC:\Users\Matthew\Documents\__GModStuff\PROJECT\src\public\tier1 /IC:\Users\Matthew\Documents\__GModStuff\PROJECT\src\public /I"C:\Users\Matthew\Documents\__GModStuff\GMod Headers" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D GMCL_CMD_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt int.cpp
+         int.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Release\gmcl_cmd.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\Matthew\Documents\__GModStuff\PROJECT\src\lib\public vtf.lib tier0.lib tier1.lib tier2.lib tier3.lib matsys_controls.lib bitmap.lib choreoobjects.lib dmxloader.lib mathlib.lib nvtristrip.lib particles.lib raytrace.lib steam_api.lib vgui_controls.lib vmpi.lib vstdlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"Release\gmcl_cmd.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Release\gmcl_cmd.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Release\gmcl_cmd.lib" /MACHINE:X86 /DLL Release\ADE32.obj
+         Release\CDetour.obj
+         Release\int.obj
+         Release\nospread.obj
+         Release\stdafx.obj
+            Creating library C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Release\gmcl_cmd.lib and object C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Release\gmcl_cmd.exp
+         Generating code
+         Finished generating code
+         gmcl_cmd.vcxproj -> C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Release\gmcl_cmd.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Release\gmcl_cmd.dll;#2" /manifest Release\gmcl_cmd.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\gmcl_cmd.unsuccessfulbuild".
+         Touching "Release\gmcl_cmd.lastbuildstate".
+     1>Done Building Project "C:\Users\Matthew\Documents\Hermes\gmcl_cmd\gmcl_cmd\gmcl_cmd.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.99

@@ -1,0 +1,37 @@
+﻿Build started 5/2/2011 10:20:30 PM.
+     1>Project "C:\Users\Matthew\Documents\Hermes\gmcl_cmd\gmcl_cmd\gmcl_cmd.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\gmcl_cmd.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Matthew\Documents\__GModStuff\PROJECT\src\public\tier1 /IC:\Users\Matthew\Documents\__GModStuff\PROJECT\src\public /I"C:\Users\Matthew\Documents\__GModStuff\GMod Headers" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GMCL_CMD_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt int.cpp
+         int.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Debug\gmcl_cmd.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Matthew\Documents\__GModStuff\PROJECT\src\lib\public vtf.lib tier0.lib tier1.lib tier2.lib tier3.lib matsys_controls.lib bitmap.lib choreoobjects.lib dmxloader.lib mathlib.lib nvtristrip.lib particles.lib raytrace.lib steam_api.lib vgui_controls.lib vmpi.lib vstdlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gmcl_cmd.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Debug\gmcl_cmd.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Debug\gmcl_cmd.lib" /MACHINE:X86 /DLL Debug\gmcl_cmd.dll.embed.manifest.res
+         Debug\int.obj
+     1>LIBCMT.lib(tidtable.obj) : error LNK2005: __encoded_null already defined in MSVCRTD.lib(MSVCR100D.dll)
+     1>LIBCMT.lib(tolower.obj) : error LNK2005: _tolower already defined in MSVCRTD.lib(MSVCR100D.dll)
+     1>LIBCMT.lib(crt0dat.obj) : error LNK2005: __initterm_e already defined in MSVCRTD.lib(MSVCR100D.dll)
+     1>LIBCMT.lib(crt0dat.obj) : error LNK2005: __amsg_exit already defined in MSVCRTD.lib(MSVCR100D.dll)
+     1>LIBCMT.lib(mlock.obj) : error LNK2005: __unlock already defined in MSVCRTD.lib(MSVCR100D.dll)
+     1>LIBCMT.lib(mlock.obj) : error LNK2005: __lock already defined in MSVCRTD.lib(MSVCR100D.dll)
+     1>LIBCMT.lib(winxfltr.obj) : error LNK2005: ___CppXcptFilter already defined in MSVCRTD.lib(MSVCR100D.dll)
+     1>LIBCMT.lib(hooks.obj) : error LNK2005: "void __cdecl terminate(void)" (?terminate@@YAXXZ) already defined in MSVCRTD.lib(MSVCR100D.dll)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: ___xi_a already defined in MSVCRTD.lib(cinitexe.obj)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: ___xi_z already defined in MSVCRTD.lib(cinitexe.obj)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: ___xc_a already defined in MSVCRTD.lib(cinitexe.obj)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: ___xc_z already defined in MSVCRTD.lib(cinitexe.obj)
+     1>LIBCMT.lib(atox.obj) : error LNK2005: _atoi already defined in MSVCRTD.lib(MSVCR100D.dll)
+     1>LIBCMT.lib(strtol.obj) : error LNK2005: _strtol already defined in MSVCRTD.lib(MSVCR100D.dll)
+     1>LIBCMT.lib(strtol.obj) : error LNK2005: _strtoul already defined in MSVCRTD.lib(MSVCR100D.dll)
+            Creating library C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Debug\gmcl_cmd.lib and object C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Debug\gmcl_cmd.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LIBCMT.lib(crt0.obj) : error LNK2019: unresolved external symbol _main referenced in function ___tmainCRTStartup
+     1>C:\Users\Matthew\Documents\Hermes\gmcl_cmd\Debug\gmcl_cmd.dll : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Matthew\Documents\Hermes\gmcl_cmd\gmcl_cmd\gmcl_cmd.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.86

@@ -1,0 +1,8 @@
+fr1kin's old garry's mod hack
+
+menu_plugins + autorun go in garrysmod/garrysmod/lua
+__autoload__ goes in garrysmod/garrysmod/
+
+module goes into garrysmod/garrysmod/lua/includes
+
+kbai
